@@ -1,16 +1,16 @@
 //onload = init, para evitar problemas com o script declarado no head
 
 
-function error(){
-  alert("error");
-}
+// function error(){
+//   alert("error");
+// }
 
 
-function goToLink(path){
+// function goToLink(path){
     
-    var myDomain = 'http://localhost:8080';
-    window.location.href = myDomain + "/" + path;
-}
+//     var myDomain = 'http://localhost:8080';
+//     window.location.href = myDomain + "/" + path;
+// }
 
 $("#slideshow > div:gt(0)").hide();
 
